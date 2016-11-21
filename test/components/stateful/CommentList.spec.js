@@ -2,7 +2,7 @@ import React from 'react';
 
 // we won't need to have long relative paths once Karma
 // is wired up ti run our tests through webpack
-import CommentList from 'components/CommentList';
+import CommentList from 'components/stateful/CommentList';
 //import CommentList from '../../src/components/CommentList';
 // following deprecated
 // import {
