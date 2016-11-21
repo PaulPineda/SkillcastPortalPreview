@@ -1,0 +1,1 @@
+//export ALL_CAPS_TYPE_NAME = 'ALL_CAPS_TYPE_NAME';
