@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 //import promise from 'redux-promise';  << using own simple async middleware:
 import async from './middleware/async';
 
-import App from './components/stateful/App';
+import App from './components/connected/App';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware(async)(createStore);
