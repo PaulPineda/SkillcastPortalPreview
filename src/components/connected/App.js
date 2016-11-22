@@ -9,7 +9,22 @@ export default class App extends Component {
       // <div className="App">
       //
       // </div>
-      <span></span>
+      <div></div>
     );
   };
 }
+
+// const mapStateToProps = (state) => {
+//   console.log('state.currentPage',state.currentPage);
+//   console.log('state.pages',state.pages);
+//   return {
+//     currentPage: state.currentPage,
+//     pages: state.pages
+//   };
+// }
+//
+// const mapDispatchToProps = (dispatch) => {
+//   return bindActionCreators({allActions}, dispatch);
+// }
+//
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
